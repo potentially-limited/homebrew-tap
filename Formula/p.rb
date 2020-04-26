@@ -2,9 +2,14 @@
 class P < Formula
   desc "P is a cli for Potantially."
   homepage ""
-  url "http://potentially-p-releases.s3.eu-west-1.amazonaws.com/0.0.20/p_0.0.20_darwin_amd64.zip"
-  version "0.0.20"
-  sha256 "c2c33bf881a274b370972dd673bd629758ca01f2d205fb1af7f95b915689c722"
+  version "0.0.27"
+  bottle :unneeded
+
+  if OS.mac?
+    url "http://potentially-p-releases.s3.eu-west-1.amazonaws.com/0.0.27/p_0.0.27_darwin_amd64.zip"
+    sha256 "570b82ef16d469bf57689579a5f215d2d8cdf989b776c1d1f16c4870e6240c1e"
+  elsif OS.linux?
+  end
 
   def install
     bin.install "p"
