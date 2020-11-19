@@ -2,12 +2,12 @@
 class P < Formula
   desc "P is a cli for Potantially."
   homepage ""
-  version "0.0.27"
+  version "0.0.26"
   bottle :unneeded
 
   if OS.mac?
-    url "http://potentially-p-releases.s3.eu-west-1.amazonaws.com/0.0.27/p_0.0.27_darwin_amd64.zip"
-    sha256 "570b82ef16d469bf57689579a5f215d2d8cdf989b776c1d1f16c4870e6240c1e"
+    url "http://potentially-p-releases.s3.eu-west-1.amazonaws.com/0.0.26/p_0.0.26_darwin_amd64.zip"
+    sha256 "682840f0e50adba8c68d7f906ff4f6aab11d95a1ed2794bcaf28522e268da5ac"
   elsif OS.linux?
   end
 
